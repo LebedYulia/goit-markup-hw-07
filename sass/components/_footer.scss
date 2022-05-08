@@ -1,12 +1,27 @@
 .footer {
     background-color: $hero-bg-color;
+    
+
+    &__subtitle {
+        @extend %subtitle;
+        margin-bottom: 20px;
+        font-style: normal;        
+        color: $secondary-text-color;
+    }
+
+    &__address {
+        margin-right: 70px;
+    }
+
+    &__social {
+        margin-right: auto;
+      }
+}
+
+.footer.container {
+    display: flex;
+    align-items: baseline;
+    
     padding-top: 60px;
     padding-bottom: 60px;
-
-    &__conteiner {
-        display: flex;
-        align-items: baseline;
-    }
-
-    
-    }
+}

@@ -1,0 +1,19 @@
+.address {
+    margin-top: 20px;
+
+
+    &__link {
+        @extend %link;
+        font-style: normal;
+        font-weight: 400;
+        color: $footer-contacts-color;        
+        line-height: 1.71;
+        text-decoration: none;
+    }
+
+    &__link:hover,
+    &__link:focus {        
+        color: $secondary-text-color;
+    }
+}
+   
