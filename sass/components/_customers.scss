@@ -1,0 +1,26 @@
+.customers {
+    display: flex;
+    align-items: center;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid $social-links-color;
+        fill: $social-links-color;
+        border-radius: 4px;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }    
+
+    &__link:hover,
+    &__link:focus {
+      border: 1px solid $accent-color;
+      fill: $accent-color;
+    }
+  }
