@@ -1,19 +1,21 @@
 .contacts {
     display: flex;
+}
 
-    &__item:not(:last-child) {
-        margin-right: 50px;
-      }
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
 
-    &__link{
-        @extend %link;
-        display: flex;
-        align-items: center;
-        color: $primary-text-color;
-        fill: $primary-text-color;
-    }  
+.contacts__link {
+  @extend %link;
+  display: flex;
+  align-items: center;
+  color: $primary-text-color;
+  fill: $primary-text-color;
+}  
 
-    &__icon {
-        margin-right: 10px;
-      }
-  }
+.contacts__icon {
+  margin-right: 10px;
+}
+    
+  

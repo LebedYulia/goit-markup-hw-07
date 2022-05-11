@@ -11,21 +11,21 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: $hero-bg-color;
+}
 
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+      
+    color: $secondary-text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;         
+}
 
-    &__title {
-        margin-top: 0;
-        margin-bottom: 30px;
-          
-        color: $secondary-text-color;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;         
-    }
-
-    &__button{
-        @extend %button;
-    }
-  }
+.hero__button{
+    @extend %button;
+}    
+  

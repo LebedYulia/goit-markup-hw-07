@@ -1,27 +1,26 @@
 .footer {
-    background-color: $hero-bg-color;
-    
-
-    &__subtitle {
-        @extend %subtitle;
-        margin-bottom: 20px;
-        font-style: normal;        
-        color: $secondary-text-color;
-    }
-
-    &__address {
-        margin-right: 70px;
-    }
-
-    &__social {
-        margin-right: auto;
-      }
+    background-color: $hero-bg-color;    
 }
 
-.footer.container {
+.footer__container {
     display: flex;
     align-items: baseline;
     
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer__title {
+    @extend %title;
+    margin-bottom: 20px;
+    font-style: normal;        
+    color: $secondary-text-color;
+}
+
+.footer__address {
+    margin-right: 70px;
+}
+
+.footer__social {
+    margin-right: auto;
 }
